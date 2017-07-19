@@ -9,11 +9,6 @@ video {
   padding: 0;
 }
 
-img {
-    position: relative;
-    top: 25px;
-    z-index: 4;
-}
 
 html,
 body {
@@ -24,6 +19,20 @@ body {
   font-size: 16px;
   font-family: "Oxygen", sans-serif;
   line-height: 1.5;
+}
+
+img {
+    position: relative;
+	left: px;
+    top: 25px;
+    z-index: 4;
+}
+
+.enter {
+    position: relative;
+	left: -20px;
+    top: 300px;
+    z-index: 5;
 }
 
 
