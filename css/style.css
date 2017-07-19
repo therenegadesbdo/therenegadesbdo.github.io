@@ -30,7 +30,7 @@ img {
 
 .enter {
     position: relative;
-	left: -20px;
+	left: -10px;
     top: 300px;
     z-index: 5;
 }
