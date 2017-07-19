@@ -9,6 +9,12 @@ video {
   padding: 0;
 }
 
+img {
+    position: relative;
+    top: 10px;
+    z-index: 4;
+}
+
 html,
 body {
   height: 100%;
