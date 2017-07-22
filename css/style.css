@@ -24,7 +24,7 @@ body {
 img {
     position: relative;
 	left: px;
-    top: 25px;
+    top: 100px;
     z-index: 4;
 }
 
