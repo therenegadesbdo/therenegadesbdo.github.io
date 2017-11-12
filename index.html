@@ -1,32 +1,60 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title>The Renegades</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<center><img src="logo.png" alt="" height="250" width="250"></center>
-<video id="bdo" class="video" muted loop>
-  <source src="media/bdo.mp4" type="video/mp4">
- 
-</video>
-<div class="parent">
-<a href="https://www.youtube.com/watch?v=du-TY1GUFGk">
-  <center><img class="enter" src="enter.png"/></center>
-  </a>
-  <center><img class="welcome" src="welcome.png" height="259" width="655"/></center>
-</div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="black desert online, guild, the renegades">
+    <meta name="author" content="Connor">
+    <title>The Renegades</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="name">
+          <h1>THE RENEGADES</h1>
+          <nav>
+            <ul>
+              <li><a href="Gear.html">Gear</a></li>
+              <li class="current"><a href="Index.html">Home</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
 
-<script>
-(function() {
+    <section id="mp">
+      <div class="container">
+        <h1>Welcome To The Renegades</h1>
+        <img src="./img/logo3.png">
+      </div>
+    </section>
 
-  var video = document.getElementById("bdo");
+    <section  id="info">
+      <div class="container">
+        <h1>Join Our Guild</h1>
+      </div>
+    </section>
 
-
-  video.addEventListener( "canplay", function() {
-    video.play();
-  });
-})();
-</script>
-
-</body>
+    <section id="col">
+      <div class="container">
+        <div class="col2">
+          <img src="./img/pvp.png">
+          <h3>Player vs Player</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis lorem a condimentum fringilla. Nulla vel orci ac nibh finibus mollis. Nam iaculis, ante ac blandit luctus, arcu nisi tincidunt erat, quis suscipit nunc urna quis sapien. Nunc finibus nunc eget pretium faucibus. Nulla felis nibh, auctor in aliquam vitae, convallis quis sapien. Proin consectetur blandit dui, a lobortis tortor tincidunt et. Aliquam id hendrerit nunc. Quisque egestas ornare efficitur. Phasellus orci lacus, maximus vitae arcu ac, fringilla tempor mauris. Sed sagittis neque purus, quis ullamcorper elit imperdiet a. Praesent et lacinia dolor, eu posuere velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum vel urna vitae sapien interdum auctor. Sed urna elit, congue et tortor eget, tempor volutpat odio. Duis tempor sem eget velit tincidunt, et ornare est vulputate. Phasellus et urna non quam fermentum tempus non in purus.</p>
+        </div>
+        <div class="col2">
+          <img src="./img/pve.png">
+          <h3>Player vs Environment</h3>
+          <p>Nulla tristique eu orci id eleifend. Praesent dignissim eros ante, quis iaculis erat ultricies placerat. Sed est metus, vehicula id sodales nec, hendrerit id metus. Integer tincidunt feugiat tellus in pulvinar. Suspendisse rhoncus libero sit amet vulputate mattis. Vivamus blandit erat vitae ligula vulputate, vitae dignissim diam commodo. Proin vel lorem ac odio ultricies sodales nec eget justo. Aenean convallis aliquam quam, a sollicitudin ex volutpat sed.</p>
+        </div>
+        <div class="col2">
+          <img src="./img/nodewars.png">
+          <h3>Node Wars</h3>
+          <p>Proin vel sapien et tortor varius finibus in et ligula. Donec tempus urna id convallis euismod. Nam congue blandit lacus vel fermentum. Morbi lorem turpis, bibendum nec molestie vel, egestas non tellus. Vivamus volutpat nunc dui, sit amet commodo massa sagittis quis. Donec non mi commodo, commodo turpis id, malesuada dui. Fusce luctus tincidunt est quis porta. Ut nec nisl posuere, pharetra massa at, placerat nulla. Aliquam lacinia ultricies lorem posuere eleifend. Pellentesque non consectetur arcu. Aliquam a fringilla libero. Fusce lacinia tellus ut arcu elementum rhoncus a a lacus. Nunc purus felis, porta a hendrerit id, malesuada vitae nisi. Sed faucibus leo a varius ullamcorper. Nullam a risus non ante euismod feugiat vel id ligula.</p>
+        </div>
+      </div>
+      <footer>
+        <p>The Renegades, Copyright &copy; 2017</p>
+      </footer>
+  </body>
 </html>

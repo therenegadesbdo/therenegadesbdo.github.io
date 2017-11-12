@@ -1,51 +1,116 @@
-html,
-body,
-div,
-h1,
-p,
-a,
-video {
-  margin: 0;
-  padding: 0;
+body{
+  font-family: Arial;
+  font-size:13px;
+  line-height:1.5;
+  padding:0;
+  background-color:#EAEAEA;
+}
+/*anything that is a class use a "."*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+
 }
 
-html,
-body {
-  height: 100%;
-}
-
-img {
-    position: relative;
-	left: px;
-    top: 100px;
-    z-index: 4;
-}
-
-.enter {
-    position: relative;
-	left: 0px;
-    top: 450px;
-    z-index: 5;
-}
-
-.welcome {
-	position: relative;
-	left: 0px;
-	top: 50px;
-	z-index: 6;
+ul{
+  margin:0;
+  padding:0;
 }
 
 
-.video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+header{
+  background:#A80000;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ffffff 4px solid;
+}
+
+
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:23px;
+}
+
+
+header li{
+  float:right;
+  display:inline;
+  padding: 0 30px 0 30px;
+}
+/*anything that is an ID use the "#"*/
+header #name{
+  float:left;
+}
+
+
+header #name h1{
+  font-size:50px;
+  float:right;
+  margin:0;
+}
+
+header nav{
+  margin-top:12px
+}
+
+header a:hover{
+  color:#ffffff;
+  font-weight:bold;
+}
+
+body iframe{
+  float:center;
+}
+
+#mp{
+  min-height:400px;
+  background:url("../img/imbg.jpg") no-repeat 0 -49px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#mp h1{
+  margin-top:10px;
+  font-size:55px
+
+}
+#mp img{
+  margin-top:-50px
+}
+
+#info{
+  font-size:15px;
+  color:#ffffff;
+  background:#A80000;
+}
+
+#info h1{
+  float: left;
+}
+
+#col{
+  margin-top: 20px;
+}
+#col .col2{
+  float:left;
+  text-align:center;
+  width:30%;
+  padding:12px
+
+}
+
+#col .col2 img{
+  width:148px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  background-color:#EAEAEA;
+  text-align:center
 }
